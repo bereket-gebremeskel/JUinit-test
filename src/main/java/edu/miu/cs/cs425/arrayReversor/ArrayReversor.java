@@ -16,10 +16,10 @@ public class ArrayReversor {
 		}
 		int[] flattend = arrayFlattenerService.flattenArray(a);
 		
-		int[] reversed = new int[flattend.length];
+		int[] reversed = new int[flattend.length];//space complexity
 		int j=0;
-		for(int i = flattend.length-1;i!=-1;i--) {
 		
+		for(int i = flattend.length-1;i!=-1;i--) {
 			reversed[j]= flattend[i];
 			j++;
 		}

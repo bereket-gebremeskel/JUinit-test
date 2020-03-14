@@ -35,7 +35,7 @@ public class TestArrayReversor {
 		when(afs.flattenArray(input)).thenReturn(expected);
 		assertArrayEquals(reversed, ar.reverseArray(input));
 		
-		verify(afs.flattenArray(input));
+		verify(afs).flattenArray(input);
 	}
 
 }
